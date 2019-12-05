@@ -22,7 +22,14 @@ public class InputString {
     }
 
     public static List<String> getPuzzelInputAsString() {
-        String str = "1,9,10,3,2,3,11,0,99,30,40,50";
+        String str = "R75,D30,R83,U83,L12,D49,R71,U7,L72";
+
+        List<String> strList = Arrays.asList(str.split(","));
+
+        return strList;
+    }
+    public static List<String> getPuzzelInput2AsString() {
+        String str = "U62,R66,U55,R34,D71,R55,D58,R83";
 
         List<String> strList = Arrays.asList(str.split(","));
 
